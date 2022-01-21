@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashBoardFormContext" prefHeight="574.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="1031.0" layoutX="-96.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/images/back02.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="621.0" fitWidth="801.0" layoutX="-336.0" layoutY="-61.0" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/images/download%20(1)%20(1).png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="390.0" layoutY="69.0" opacity="0.1" prefHeight="56.0" prefWidth="348.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+      <FontAwesomeIconView glyphName="USER_PLUS" layoutX="413.0" layoutY="104.0" onMouseClicked="#visibleRegistationDetails" opacity="0.7" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></FontAwesomeIconView>
+      <FontAwesomeIconView glyphName="CART_PLUS" layoutX="464.0" layoutY="105.0" onMouseClicked="#visibleProgramDetails" opacity="0.7" size="21" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></FontAwesomeIconView>
+      <FontAwesomeIconView glyphName="DASHBOARD" layoutX="514.0" layoutY="105.0" onMouseClicked="#visibleJoinDetails" opacity="0.5" size="21" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></FontAwesomeIconView>
+      <Pane layoutX="390.0" layoutY="138.0" opacity="0.1" prefHeight="368.0" prefWidth="469.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+      <TextField fx:id="txtStudentId" layoutX="409.0" layoutY="189.0" opacity="0.2" prefHeight="32.0" prefWidth="104.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblStudentId" layoutX="421.0" layoutY="171.0" opacity="0.5" text="Student id" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentName" layoutX="409.0" layoutY="250.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Text fx:id="lblSecondText" fill="WHITE" layoutX="437.0" layoutY="170.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="In 2020 Times Higher Education World Rankings has placed the Sipsewana 1st in Sri Lanka " textAlignment="CENTER" wrappingWidth="375.99999126419425">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Label fx:id="lblStudentName" layoutX="421.0" layoutY="232.0" opacity="0.5" text="Student name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentAddress" layoutX="409.0" layoutY="311.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblStudentAddress" layoutX="421.0" layoutY="293.0" opacity="0.5" text="Student address" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentContact" layoutX="409.0" layoutY="372.0" opacity="0.2" prefHeight="32.0" prefWidth="104.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblStudentContact" layoutX="421.0" layoutY="354.0" opacity="0.5" text="Student contact" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTrainingPrograms" layoutX="421.0" layoutY="415.0" opacity="0.5" text="Student age" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRegister" layoutX="736.0" layoutY="438.0" onMouseClicked="#registerStudentOnAction" opacity="0.5" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="806.0" layoutY="443.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/images/white-arrow-icon-png-26.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Text fx:id="lblFirstText" fill="WHITE" layoutX="625.0" layoutY="299.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="In 2020 Times Higher Education World Rankings has placed the Sipsewana 1st in Sri Lanka " textAlignment="CENTER" wrappingWidth="199.99999126419425">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtProgramId" layoutX="410.0" layoutY="219.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblProgramId" layoutX="422.0" layoutY="201.0" opacity="0.5" text="Program id" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProgramName" layoutX="410.0" layoutY="280.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblProgramName" layoutX="422.0" layoutY="262.0" opacity="0.5" text="Program name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProgramDuration" layoutX="410.0" layoutY="341.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblProgramDuration" layoutX="422.0" layoutY="323.0" opacity="0.5" text="Programe duration" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProgramFee" layoutX="410.0" layoutY="402.0" opacity="0.2" prefHeight="32.0" prefWidth="173.0" style="-fx-background-radius: 12;" />
+      <Label fx:id="lblProgramFee" layoutX="422.0" layoutY="384.0" opacity="0.5" text="Program fee (LKR)" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgArrow" fitHeight="17.0" fitWidth="17.0" layoutX="806.0" layoutY="443.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/images/white-arrow-icon-png-26.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label fx:id="lblAdd" layoutX="766.0" layoutY="438.0" onMouseClicked="#addProgramOnAction" opacity="0.5" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <TableView fx:id="tblJoinCol" layoutX="406.0" layoutY="161.0" opacity="0.4" prefHeight="323.0" prefWidth="207.0">
+        <columns>
+          <TableColumn fx:id="colSId" prefWidth="64.0" text="S id" />
+          <TableColumn fx:id="colPName" prefWidth="74.0" text="P name" />
+            <TableColumn fx:id="colPFee" prefWidth="68.0" text="P fee" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblDelete" layoutX="747.0" layoutY="438.0" opacity="0.5" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <FontAwesomeIconView glyphName="USER" layoutX="565.0" layoutY="105.0" onMouseClicked="#visibleJoinStudent" opacity="0.5" size="20" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <TableView fx:id="tblStudentDetails" layoutX="406.0" layoutY="198.0" opacity="0.4" prefHeight="236.0" prefWidth="436.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="72.0" text="Id" />
+          <TableColumn fx:id="colName" prefWidth="93.0" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="95.99996948242188" text="Address" />
+            <TableColumn fx:id="colContact" prefWidth="79.0" text="Contact" />
+            <TableColumn fx:id="colAge" prefWidth="95.0" text="Age" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblRemove" layoutX="736.0" layoutY="438.0" opacity="0.5" text="Remove" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <FontAwesomeIconView glyphName="PUZZLE_PIECE" layoutX="610.0" layoutY="106.0" onMouseClicked="#visibleTrainingProgram" opacity="0.5" size="20" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <TableView fx:id="tblTrainingPrograms" layoutX="406.0" layoutY="198.0" opacity="0.4" prefHeight="236.0" prefWidth="436.0">
+        <columns>
+          <TableColumn fx:id="colProgramIds" prefWidth="79.00003051757812" text="Program id" />
+          <TableColumn fx:id="colProgramName" prefWidth="148.0" text="Program name" />
+            <TableColumn fx:id="colDuration" prefWidth="98.0" text="Duration" />
+            <TableColumn fx:id="colFee" prefWidth="110.0" text="Fee (LKR)" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblClear" layoutX="757.0" layoutY="438.0" opacity="0.5" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <FontAwesomeIconView glyphName="LOCK" layoutX="658.0" layoutY="106.0" onMouseClicked="#openLoginForm" opacity="0.5" size="20" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView glyphName="POWER_OFF" layoutX="700.0" layoutY="106.0" onMouseClicked="#logOut" opacity="0.5" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <TextField fx:id="txtStudentAge" layoutX="410.0" layoutY="433.0" opacity="0.2" prefHeight="32.0" prefWidth="104.0" style="-fx-background-radius: 12;" />
+      <Pane fx:id="pane" layoutX="870.0" layoutY="252.0" opacity="0.1" prefHeight="129.0" prefWidth="32.0" style="-fx-background-color: white; -fx-background-radius: 20;" />
+      <FontAwesomeIconView fx:id="iconClear" glyphName="FLASH" layoutX="881.0" layoutY="286.0" onMouseClicked="#clearStudentText" opacity="0.5" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="iconDelete" glyphName="TRASH_ALT" layoutX="879.0" layoutY="323.0" onMouseClicked="#deleteStudentOnAction" opacity="0.5" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="iconUpdate" glyphName="REFRESH" layoutX="879.0" layoutY="360.0" onMouseClicked="#updateStudentOnAction" opacity="0.5" size="17" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="iconProgramClear" glyphName="FLASH" layoutX="881.0" layoutY="286.0" onMouseClicked="#clearTrainingProgramText" opacity="0.5" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="iconProgramDelete" glyphName="TRASH_ALT" layoutX="879.0" layoutY="323.0" onMouseClicked="#deleteTrainingProgramText" opacity="0.5" size="19" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="iconProgramUpdate" glyphName="REFRESH" layoutX="879.0" layoutY="360.0" onMouseClicked="#updateTrainingProgramText" opacity="0.5" size="17" style="-fx-fill: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <Label fx:id="lblPId" layoutX="528.0" layoutY="171.0" opacity="0.5" text="pid" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbPId" layoutX="520.0" layoutY="189.0" opacity="0.2" prefHeight="32.0" prefWidth="62.0" style="-fx-background-radius: 12; -fx-background-color: white;" />
+      <TextField fx:id="txtPName" layoutX="520.0" layoutY="372.0" opacity="0.2" prefHeight="32.0" prefWidth="62.0" style="-fx-background-radius: 12;" />
+      <TextField fx:id="txtPFee" layoutX="520.0" layoutY="433.0" opacity="0.2" prefHeight="32.0" prefWidth="62.0" style="-fx-background-radius: 12;" styleClass="tColor" stylesheets="@../asserts/css/style.css" />
+   </children>
+</AnchorPane>
