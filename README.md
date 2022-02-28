@@ -6,7 +6,7 @@ Sipsewana
 standalone application
 </h6>
 
-![hibernate ui](https://user-images.githubusercontent.com/86073690/151021066-6b5e8b45-3cf6-4c23-a2df-35ddbb4c947b.jpg)
+![Frame 9](https://user-images.githubusercontent.com/86073690/155941870-9c5e1e2c-207b-4a12-894e-d2c7373ab89a.jpg)
 
 ***
 
