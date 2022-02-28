@@ -3,7 +3,7 @@ Sipsewana
 </h3>
 
 <h6 align="center">
-standalone application
+Login UI
 </h6>
 
 ![Frame 9](https://user-images.githubusercontent.com/86073690/155941870-9c5e1e2c-207b-4a12-894e-d2c7373ab89a.jpg)
