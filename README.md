@@ -1,17 +1,17 @@
 <h3 align="center">
-Sipsewana
+Sipsewana :books:
 </h3>
 
 <h6 align="center">
 Login UI
 </h6>
 
-![Frame 9](https://user-images.githubusercontent.com/86073690/155941870-9c5e1e2c-207b-4a12-894e-d2c7373ab89a.jpg)
+![MacBook Pro 14_ - 3](https://user-images.githubusercontent.com/86073690/174478515-95cf6b11-4dd9-4b5d-a9a3-28ecfd23041a.jpg)
 
 ***
 
 <h6 align="center">
-dev environment
+dev environment :microscope:
 </h6>
 
 <div align="center">
@@ -19,7 +19,7 @@ dev environment
 </div>
 
 <h6 align="center">
-design environments
+design environments :art:
 </h6>
 
 <div align="center">
@@ -27,7 +27,7 @@ design environments
 </div>
 
 <h6 align="center">
-orm tools
+orm tools :wrench:
 </h6>
 
 <div align="center">
